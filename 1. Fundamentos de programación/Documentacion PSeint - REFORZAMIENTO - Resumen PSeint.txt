@@ -1,0 +1,23 @@
+Constestar las preguntas de forma que tu abosorbas más conocimiento,
+ya sea así directamente en este txt, o pasarlas a resumen en un word, o hacer tu propia presentación en
+power point, en este mismo directorio.
+
+[Si me permites hacerte notar tus errores de ortógrafía, también podrías mejorar tu redacción]
+
+¿Qué es un algoritmo?
+Qué es un pseudcódigo?
+¿Qué es PSeint?
+Explica los tipos de datos que se pueden utilizar en PSeint
+¿Cuántos tipos de operadores hay y cuáles son en PSeint?
+¿Qué es una estructura de control?
+¿Cuáles son las estructuras de control en PSeint?
+¿Qué es un Array/Arreglo y cuáles son sus características?
+¿Cuál es la estructura que hay que escribir para definir un arreglo?
+¿Cómo se accede a un elemento del arreglo?
+
+Para la última diapositiva (problema 1 y 2) no es necesario hacerlo en PSeint. Solo escribe aquí el algoritmo
+para resolver el problema 1 y 2. Por ejemplo (p.e), para leer un número y mostrarlo el 
+algorimo sería el siguiente:
+	1. El programa crea variable para guardar el número
+	2. El usuario ingresa un número y lo guarda en la variable.
+	3. El programa muestra al usuario el número que ha ingresado.
