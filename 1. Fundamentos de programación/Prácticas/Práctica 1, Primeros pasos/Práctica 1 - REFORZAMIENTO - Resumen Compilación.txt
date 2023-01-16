@@ -1,0 +1,21 @@
+Constestar las preguntas de forma que tu abosorbas más conocimiento,
+ya sea así directamente en este txt, o pasarlas a resumen en un word, o hacer tu propia presentación en
+power point, en este mismo directorio.
+
+[Si me permites hacerte notar tus errores de ortógrafía, también podrías mejorar tu redacción]
+
+¿Qué es un sistema operativo y cómo se abrevian sus siglas?
+¿Qué es un editor de texto?
+¿Qué es un compilador?
+¿Qué es una máquina virtual?
+¿Qué es una variable de entorno?
+¿Qué es un depurador?
+¿Qué es un IDE?
+¿En una terminal para que sirve el comando ls(linux) y dir(windows)?
+¿En una terminal para que sirve el comando mkdir(linux y windows)?
+¿En una terminal para que sirve el comando cd <carpeta>(linux y windows)?
+¿En una terminal para que sirve el comando cd ..(linux y windows)?
+¿En una terminal para que sirve el comando cd(linux y windows)?
+¿Qué es VIM y NANO en la terminal de linux?
+¿En una terminal para que sirve el comando more <archivo>(linux)?
+¿En una terminal para que sirve el comando cat <archivo>(linux)?
