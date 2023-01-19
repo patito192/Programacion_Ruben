@@ -1,3 +1,9 @@
+/*
+	Si quieres contestalas en el otro txt que hice. Faltan contestar preguntas.
+	--------------------------------------------------------------------------
+	If you want answer them in the other txt that I make. There are missing questions for answer.
+*/
+
 ls - list the current directory
 mkdir -  make a directory
 cd - change directory
