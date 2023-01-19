@@ -1,0 +1,4 @@
+ls - list the current directory
+mkdir -  make a directory
+cd - change directory
+man * - show me the manual of command
