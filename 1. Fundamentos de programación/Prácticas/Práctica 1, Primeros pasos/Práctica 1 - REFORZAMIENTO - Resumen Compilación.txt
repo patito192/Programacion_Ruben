@@ -8,46 +8,46 @@ For sure :3 XD
 ========================================================================================================
 
 ¿Qué es un sistema operativo y cómo se abrevian sus siglas?
-Is the program that manages all of the other application programs in a computer.
+Is the program that manages all of the other application programs in a computer. [cómo se abrevian sus siglas]
 
 ¿Qué es un editor de texto?
-It's just the program that helps organizations manage text editing processes for codes.
+It's just the program that helps organizations manage text editing processes for codes. [Ok]
 
 ¿Qué es un compilador?
-Is a program that translates a programming language's source code into machine code, bytecode or another programming language.
+Is a program that translates a programming language's source code into machine code, bytecode or another programming language. [Ok]
 
 ¿Qué es una máquina virtual?
-Is a compute resource that uses software instead of a physical computer to run programs and deploy apps.
+Is a compute resource that uses software instead of a physical computer to run programs and deploy apps. [Ok]
 
 ¿Qué es una variable de entorno?
-Is like independent variables in a mathematical equation, these take on values that change the results of the program.
+Is like independent variables in a mathematical equation, these take on values that change the results of the program. [Cuando quieres ejecutar un comando en la terminal como gcc y te salta el error de que el comando no se conoce, es porque no se ha agregado la ruta de instalación a las variables de entorno, luego te o explico con más detalle]
 
 ¿Qué es un depurador?
-Is a program that allows detecting and diagnosing bugs for codes or computer programs.
+Is a program that allows detecting and diagnosing bugs for codes or computer programs. [Ok]
 
 ¿Qué es un IDE?
-An Integrated Development Environment, is a software application that helps programmers develop software code efficiently.
+An Integrated Development Environment, is a software application that helps programmers [to] develop software code efficiently. [Ok]
 
 ¿En una terminal para que sirve el comando ls(linux) y dir(windows)?
-ls or dir - list the current directory
+ls or dir - list the current directory [Ok]
 
 ¿En una terminal para que sirve el comando mkdir(linux y windows)?
-mkdir -  make a directory
+mkdir -  make a directory [Ok]
 
 ¿En una terminal para que sirve el comando cd <carpeta>(linux y windows)?
-cd <directory> - change to X directory
+cd <directory> - change to X directory [Ok]
 
 ¿En una terminal para que sirve el comando cd ..(linux y windows)?
-cd.. - change to the last directory
+cd.. - change to the last directory [Regresa un directorio arriba]
 
 ¿En una terminal para que sirve el comando cd(linux y windows)?
-cd - change directory
+cd - change directory [cd solito te regresa al directorio raíz de la sesión del usuario]
 
 ¿Qué es VIM y NANO en la terminal de linux?
-Are commonly used editors available on Linux.
+Are commonly used editors available on Linux. [Ok]
 
 ¿En una terminal para que sirve el comando more <archivo>(linux)?
-more command is used to diaplay a file with pausing.
+more command is used to diaplay a file with pausing. [Te va mostrando poco a poco todo un archivo completo]
 
 ¿En una terminal para que sirve el comando cat <archivo>(linux)?
-cat command is used to display the contents on to the screen.
+cat command is used to display the contents on to the screen. [te muestra solamente las primeras lineas de un archivo, se puede especificar cuantas se quieren ver]
