@@ -3,19 +3,51 @@ ya sea así directamente en este txt, o pasarlas a resumen en un word, o hacer t
 power point, en este mismo directorio.
 
 [Si me permites hacerte notar tus errores de ortógrafía, también podrías mejorar tu redacción]
+For sure :3 XD
+
+========================================================================================================
 
 ¿Qué es un sistema operativo y cómo se abrevian sus siglas?
+Is the program that manages all of the other application programs in a computer.
+
 ¿Qué es un editor de texto?
+It's just the program that helps organizations manage text editing processes for codes.
+
 ¿Qué es un compilador?
+Is a program that translates a programming language's source code into machine code, bytecode or another programming language.
+
 ¿Qué es una máquina virtual?
+Is a compute resource that uses software instead of a physical computer to run programs and deploy apps.
+
 ¿Qué es una variable de entorno?
+Is like independent variables in a mathematical equation, these take on values that change the results of the program.
+
 ¿Qué es un depurador?
+Is a program that allows detecting and diagnosing bugs for codes or computer programs.
+
 ¿Qué es un IDE?
+An Integrated Development Environment, is a software application that helps programmers develop software code efficiently.
+
 ¿En una terminal para que sirve el comando ls(linux) y dir(windows)?
+ls or dir - list the current directory
+
 ¿En una terminal para que sirve el comando mkdir(linux y windows)?
+mkdir -  make a directory
+
 ¿En una terminal para que sirve el comando cd <carpeta>(linux y windows)?
+cd <directory> - change to X directory
+
 ¿En una terminal para que sirve el comando cd ..(linux y windows)?
+cd.. - change to the last directory
+
 ¿En una terminal para que sirve el comando cd(linux y windows)?
+cd - change directory
+
 ¿Qué es VIM y NANO en la terminal de linux?
+Are commonly used editors available on Linux.
+
 ¿En una terminal para que sirve el comando more <archivo>(linux)?
+more command is used to diaplay a file with pausing.
+
 ¿En una terminal para que sirve el comando cat <archivo>(linux)?
+cat command is used to display the contents on to the screen.
