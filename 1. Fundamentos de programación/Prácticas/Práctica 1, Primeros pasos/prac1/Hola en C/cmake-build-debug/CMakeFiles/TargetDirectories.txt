@@ -1,0 +1,3 @@
+C:/Users/Bicin/Documents/GitHub/Programacion_Ruben/1. Fundamentos de programación/Prácticas/Práctica 1, Primeros pasos/prac1/Hola en C/cmake-build-debug/CMakeFiles/Hola_en_C.dir
+C:/Users/Bicin/Documents/GitHub/Programacion_Ruben/1. Fundamentos de programación/Prácticas/Práctica 1, Primeros pasos/prac1/Hola en C/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Bicin/Documents/GitHub/Programacion_Ruben/1. Fundamentos de programación/Prácticas/Práctica 1, Primeros pasos/prac1/Hola en C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
