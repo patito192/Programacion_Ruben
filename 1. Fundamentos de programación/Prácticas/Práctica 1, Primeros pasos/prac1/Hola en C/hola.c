@@ -1,4 +1,10 @@
 /*
+    ALGORITMO:
+    1. El programa muestra una impresión de pantalla.
+    2. Fin de programa
+*/
+
+/*
  * Rubén Ramírez Cervantes
  * 2203007463
  * bicinrubenbr@gmail.com
@@ -19,7 +25,11 @@
 */
 
 
-//*************    AQUI HAY UN ERROR  *************************
+    /*
+        Aquí hay un error grave. Investigar los métodos y funciones en C.
+        ------------------------------------------------------   :3
+        Here there are a serious mistake. Investigate methods and functions in C.
+    */
 	//Caratula
     struct muestraCaratula{
         printf("\t**************************************");

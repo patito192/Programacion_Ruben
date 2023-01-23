@@ -1,4 +1,10 @@
 /*
+    ALGORITMO:
+    1. El programa muestra una impresión de pantalla.
+    2. Fin de programa
+*/
+
+/*
  * Rubén Ramírez Cervantes
  * 2203007463
  * bicinrubenbr@gmail.com
@@ -16,11 +22,15 @@ public class hola{
 
 	public static void main(String[] args) {
 		muestraCaratula();
-
 		System.out.println("Hi :)\n");
 
 	}
 
+	/*
+		Muy buen detalle el de la carátula
+		------------------------------------------------------   :3
+		Very good for detail for cover
+	*/
 	//Caratula
     public static void muestraCaratula(){
         System.out.println("\t**************************************");
