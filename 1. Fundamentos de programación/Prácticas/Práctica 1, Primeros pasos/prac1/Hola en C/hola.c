@@ -18,6 +18,8 @@
 	The indentation is nice!
 */
 
+
+//*************    AQUI HAY UN ERROR  *************************
 	//Caratula
     struct muestraCaratula{
         printf("\t**************************************");
@@ -27,7 +29,7 @@
         printf("\t*             PRINT HOLA             *");
         printf("\t**************************************\n")
     }
-
+//************************************************************
 
 int main(){
 	muestraCaratula();
