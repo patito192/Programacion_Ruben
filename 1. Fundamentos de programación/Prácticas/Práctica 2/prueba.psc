@@ -1,12 +1,4 @@
-//************************************
-// Rubén Ramírez Cervantes
-// 2203007463
-// bicinrubenbr@gmail.com
-//
-// Compilar y Ejecutar: Botón Play
-//************************************
-
-Algoritmo numerosPromedio
+Algoritmo prueba
 	//Declaraciones
 	Definir numeroIngresado, contadorPromedio, contadorSuma, i Como Entero;
 	
@@ -21,6 +13,19 @@ Algoritmo numerosPromedio
 	Imprimir "Si deseas finalizar escribe 0";
 	Escribir "";
 	
+	calculo();
+	
+	//Se calcula el promedio
+	Escribir "";
+	Escribir "El promedio de tus números ingresados es: " contadorSuma / contadorPromedio;
+	
+	//Fin del programa.
+	Escribir "";
+	Escribir "*** Fin del programa. ***";
+	Escribir "";
+FinAlgoritmo
+
+Funcion calculo()
 	Hacer
 		//Se ingresa el número
 		Escribir Sin Saltar "Dime un número:";
@@ -35,16 +40,7 @@ Algoritmo numerosPromedio
 	
 	//Sustractor para quitar el último número 0 ingresado
 	contadorPromedio = contadorPromedio - 1;
-	
-	//Se calcula el promedio
-	Escribir "";
-	Escribir "El promedio de tus números ingresados es: " contadorSuma / contadorPromedio;
-	
-	//Fin del programa.
-	Escribir "";
-	Escribir "*** Fin del programa. ***";
-	Escribir "";
-FinAlgoritmo
+FinFuncion
 
 //Caratula
 Funcion muestraCaratula()
