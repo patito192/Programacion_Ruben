@@ -47,3 +47,27 @@ int main(){
 	printf("Hi :)\n");
 	return 0;
 }
+
+
+
+
+ESTRUCTURA DE UN FUNCION ES:
+TIPO NOMBRE_DE_LA_FUNCIÓN(TIPO NOMBRE_ARGUMENTO, ...){}
+
+ESTRUCTURA DE UN METODO ES:
+void NOMBRE_DEL_METODO([TIPO NOMBRE_ARGUMENTO]*, ...){}
+
+void
+int
+double
+float
+char
+long
+boolean
+int
+double*
+float*
+char*
+long*
+boolean*
+
