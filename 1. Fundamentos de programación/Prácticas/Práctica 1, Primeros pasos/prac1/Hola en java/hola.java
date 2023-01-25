@@ -1,7 +1,8 @@
 /*
     ALGORITMO:
-    1. El programa muestra una impresión de pantalla.
-    2. Fin de programa
+    1. Muestra una carátula
+    2. El programa muestra una impresión de pantalla.
+    3. Fin de programa
 */
 
 /*

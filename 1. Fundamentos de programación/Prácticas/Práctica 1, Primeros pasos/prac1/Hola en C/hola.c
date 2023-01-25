@@ -1,7 +1,9 @@
+#include <stdio.h>
 /*
     ALGORITMO:
-    1. El programa muestra una impresión de pantalla.
-    2. Fin de programa
+    1. El programa muestra una carátula
+    2. El programa muestra una impresión de pantalla.
+    3. Fin de programa
 */
 
 /*
@@ -16,7 +18,7 @@
  * Ejecutar: ./hola.out
  */
 
-#include <stdio.h>
+
 
 /*
 	La intentación esta muy bien!
@@ -31,16 +33,15 @@
         Here there are a serious mistake. Investigate methods and functions in C.
     */
 	//Caratula
-    struct muestraCaratula{
-        printf("\t**************************************");
-        printf("\t*   FUNDAMENTOS DE LA PROGRAMACION   *");
-        printf("\t*   ALUMNO: Rubén Ramírez Cervantes  *");
-        printf("\t*        MATRICULA: 2203007463       *");
-        printf("\t*             PRINT HOLA             *");
-        printf("\t**************************************\n")
+    void muestraCaratula(){
+        printf("\t**************************************\n");
+        printf("\t*   FUNDAMENTOS DE LA PROGRAMACION   *\n");
+        printf("\t*   ALUMNO: Rubén Ramírez Cervantes  *\n");
+        printf("\t*        MATRICULA: 2203007463       *\n");
+        printf("\t*             PRINT HOLA             *\n");
+        printf("\t**************************************\n");
     }
 //************************************************************
-
 int main(){
 	muestraCaratula();
 
@@ -51,7 +52,7 @@ int main(){
 
 
 
-ESTRUCTURA DE UN FUNCION ES:
+/*ESTRUCTURA DE UN FUNCION ES:
 TIPO NOMBRE_DE_LA_FUNCIÓN(TIPO NOMBRE_ARGUMENTO, ...){}
 
 ESTRUCTURA DE UN METODO ES:
@@ -70,4 +71,4 @@ float*
 char*
 long*
 boolean*
-
+*/

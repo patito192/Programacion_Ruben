@@ -5,7 +5,9 @@ power point, en este mismo directorio.
 [Si me permites hacerte notar tus errores de ortógrafía, también podrías mejorar tu redacción]
 
 ¿Qué es un algoritmo?
+
 Qué es un pseudcódigo?
+
 ¿Qué es PSeint?
 Explica los tipos de datos que se pueden utilizar en PSeint
 ¿Cuántos tipos de operadores hay y cuáles son en PSeint?
