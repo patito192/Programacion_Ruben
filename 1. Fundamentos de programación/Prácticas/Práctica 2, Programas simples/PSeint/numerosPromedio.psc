@@ -10,7 +10,7 @@ Algoritmo numerosPromedio
 	//Declaraciones
 	Definir numeroIngresado, contadorPromedio, contadorSuma, i Como Entero;
 	
-	//Contadores inizializado
+	//Contadores inizializados
 	contadorPromedio = 0;
 	contadorSuma = 0;
 	//i inizializado

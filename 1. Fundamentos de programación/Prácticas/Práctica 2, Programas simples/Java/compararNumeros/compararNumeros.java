@@ -1,10 +1,11 @@
 /*
     ALGORITMO:
-    1. El programa muestra la carátula.
-    2. El usuario ingresa 2 datos de tipo int.
-    3. El programa compara 2 datos int ingresados por el usuario.
-    4. El programa muestra Fin del programa.
-    5. Fin del programa.
+    1. El programa declara leerInt como Scanner.
+    2. El programa muestra la carátula.
+    3. El usuario ingresa 2 datos de tipo int.
+    4. El programa compara 2 datos int ingresados por el usuario.
+    5. El programa muestra Fin del programa.
+    6. Fin del programa.
 */
 
 /*
@@ -22,7 +23,7 @@ public class compararNumeros{
     //Función main()
 	public static void main(String args[]){
 
-        //Declaracion e importación.
+        //Declaración e importación.
         java.util.Scanner leerInt = new java.util.Scanner(System.in);
 
         //Se muestra Carátula.
@@ -64,8 +65,6 @@ public class compararNumeros{
 
     //Método Fin del programa.
     public static void finPrograma(){
-        System.out.println("");
-        System.out.println("*** Fin del programa. ***");
-        System.out.println("");
+        System.out.println("\n\n*** Fin del programa. ***\n");
     }//Fin método finPrograma()
 }//Fin Clase compararNumeros{}
