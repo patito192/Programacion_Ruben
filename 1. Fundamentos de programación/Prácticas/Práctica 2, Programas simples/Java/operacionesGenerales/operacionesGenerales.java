@@ -1,3 +1,11 @@
+/* [No compila.
+
+ Si acaso sería cambiar el nombre del archivo y ponerle un identificador con base al pdf, p.e:
+ ParteIV_Diagramas_De_Flujo_Operaciones_Generales.java
+
+ ¡RODRIGO!]
+*/
+
 /*
     ALGORITMO:
     1. El programa declara variables.
