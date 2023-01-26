@@ -1,11 +1,16 @@
 /*
     ALGORITMO:
-    1. El programa declara leerFloat como Scanner.
+    1. El programa declara variables.
     2. El programa muestra la carátula.
-    3. El usuario ingresa 2 datos de tipo int.
-    4. El programa compara 2 datos int ingresados por el usuario.
-    5. El programa muestra Fin del programa.
-    6. Fin del programa.
+    3. El programa lee datos de tipo flotante
+    4. El usuario ingresa los datos deseados de tipo float.
+    5. El programa calcula la suma de los números ingresados.
+    6. El programa guarda los datos ingresados en Contador para saber el número total de números ingresados.
+    7. El programa le substrae 1 a contadorPromedio para quitar el último 0 ingresado.
+    8. El programa convierte el número de datos ingresados a entero para mostrarlo sin decimal.
+    9. El programa calcula el promedio de los datos ingresados por el usuario.
+    10. El programa muestra Fin del programa.
+    11. Fin del programa.
 */
 
 /*
@@ -46,6 +51,7 @@ public class numerosPromedio{
         //Sustractor para quitar el último número 0 ingresado
 		contadorPromedio = contadorPromedio - 1;
 
+		//Se convierte el número de datos ingresados a entero para mostrarlo sin decimal
 		numeroNumeros = Math.round(contadorPromedio);
 
 		//Se calcula el promedio
