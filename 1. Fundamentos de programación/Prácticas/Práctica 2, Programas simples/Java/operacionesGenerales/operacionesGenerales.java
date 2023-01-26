@@ -18,27 +18,51 @@
  * 2203007463
  * bicinrubenbr@gmail.com
  *
- * Compilar: javac numerosPromedio.java
- * Ejecutar: java numerosPromedio
+ * Compilar: javac operacionesGenerales.java
+ * Ejecutar: java operacionesGenerales
  */
 
-//Clase numerosPromedio
-public class numerosPromedio{
+//Clase operacionesGenerales
+public class operacionesGenerales{
 	public static void main(String args[]){
 		//Declaración e importación.
         java.util.Scanner leerFloat = new java.util.Scanner(System.in);
-        float numeroIngresado = 0, contadorSuma = 0, contadorPromedio = 0;
-        int numeroNumeros;
+        float gradosFahrenheit = 0, distancia = 0, tiempo = 0, numeros = 0; 
+        double radio = 0;
 
         //Se muestra Carátula.
         muestraCaratula();
 
+        //Se lee y se calcula Fahrenheit a grados Celsius
+        System.out.println("Ingresa tus Fahrenheit, para convertirlos a grados Celsius:");
+        gradosFahrenheit = leerFloat.nextInt();
+
+        System.out.println("\nTus Fahrenheit a grados Celsius son: " + ((gradosFahrenheit-32)*5/9) + "°" + "C\n");
+
+        //Se lee y se calcula la velocidad de un objeto en km
+        System.out.print("Para calcular la velocidad de tu objeto, ingresa la distancia en Kilómetros que recorrió: ");
+        distancia = leerFloat.nextInt();
+
+        System.out.print("Ahora ingresa el tiempo en Horas que tardó en recorrerla: ");
+        tiempo = leerFloat.nextInt();
+
+        System.out.println("\nLa velocidad de tu objeto es de: " + (distancia/tiempo) + " km/h\n");
+
+        //Se lee y se calcula el área de un círculo en metros
+        System.out.println("Ingresa tu radio para calcular el área de un círculo en Metros:");
+        radio = leerFloat.nextInt();
+        radio = Math.pow(radio, 2);
+
+        System.out.println("\nEl área de tu círculo es de: " + (3.14159265359 * radio) + "m\n");
+
+        //Se lee y se 
         System.out.println("Si deseas finalizar escribe 0\n");
 
+        //Se ingresa el número por el usuario y se compara si el número es par o impar
         do{
-        	//Se ingresa el número
+        	//
         	System.out.print("Dime un número: ");
-        	numeroIngresado = leerFloat.nextInt();
+        	numero = leerFloat.nextInt();
 
         	//Contador para la suma de los números ingresados
         	contadorSuma = contadorSuma + numeroIngresado;
@@ -56,9 +80,10 @@ public class numerosPromedio{
 		//Se calcula el promedio
 		System.out.println("\nEl promedio de tus " + numeroNumeros + " números ingresados es: " + (contadorSuma / contadorPromedio));
 
-		//Se muestra Fin del programa.
+
+        //Se muestra Fin del programa.
         finPrograma();
-    }//Fin función main()
+	}//Fin función main()
 
     //Método Carátula.
     public static void muestraCaratula(){
@@ -66,7 +91,7 @@ public class numerosPromedio{
         System.out.println("\t*   FUNDAMENTOS DE LA PROGRAMACION   *");
         System.out.println("\t*   ALUMNO: Rubén Ramírez Cervantes  *");
         System.out.println("\t*        MATRICULA: 2203007463       *");
-        System.out.println("\t*          NÚMEROS PROMEDIO          *");
+        System.out.println("\t*          OPERACIONES GENE          *");
         System.out.println("\t**************************************\n");
     }//Fin método muestraCaratula()
 
@@ -74,4 +99,4 @@ public class numerosPromedio{
     public static void finPrograma(){
         System.out.println("\n\n*** Fin del programa. ***\n");
     }//Fin método finPrograma()
-}//Fin Clase numerosPromedio{}
+}//Fin Clase operacionesGenerales{}
