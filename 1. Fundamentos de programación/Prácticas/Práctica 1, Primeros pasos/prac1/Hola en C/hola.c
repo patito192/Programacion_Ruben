@@ -11,7 +11,7 @@
  * 2203007463
  * bicinrubenbr@gmail.com
  *
- * Compilar: gcc ‐o hola hola.c
+ * Compilar: gcc ‐o hola hola.c (Escribir el orden correcto de la compilación. ¡RODRIGO!)
  * Ejecutar: ./hola
 
  * Compilar: gcc hola.c -o hola.out
@@ -21,17 +21,8 @@
 
 
 /*
-	La intentación esta muy bien!
-	-----------------------------
-	The indentation is nice!
+	(Corregir la indentación. ¡RODRIGO!)
 */
-
-
-    /*
-        Aquí hay un error grave. Investigar los métodos y funciones en C.
-        ------------------------------------------------------   :3
-        Here there are a serious mistake. Investigate methods and functions in C.
-    */
 	//Caratula
     void muestraCaratula(){
         printf("\t**************************************\n");
@@ -50,7 +41,7 @@ int main(){
 }
 
 
-
+//(Anotar esto en un cuaderno. ¡RODRIGO!)
 
 /*ESTRUCTURA DE UN FUNCION ES:
 TIPO NOMBRE_DE_LA_FUNCIÓN(TIPO NOMBRE_ARGUMENTO, ...){}

@@ -14,11 +14,6 @@
  * Ejecutar: java hola
  */
 
-/*
-	Aquí la indentación se respeta muy bien
-	------------------------------------------------------   :3
-	In here the indentation is respected very well in here
-*/
 public class hola{
 
 	public static void main(String[] args) {
@@ -26,12 +21,7 @@ public class hola{
 		System.out.println("Hi :)\n");
 
 	}
-
-	/*
-		Muy buen detalle el de la carátula
-		------------------------------------------------------   :3
-		Very good for detail for cover
-	*/
+    
 	//Caratula
     public static void muestraCaratula(){
         System.out.println("\t**************************************");
