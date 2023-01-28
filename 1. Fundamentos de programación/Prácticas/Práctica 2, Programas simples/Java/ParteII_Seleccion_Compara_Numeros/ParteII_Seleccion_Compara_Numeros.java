@@ -1,5 +1,6 @@
 /* [Felicidades, está muy bien comentado el código, muy bien estructurado,
  los nombres de las variables son explicativas y el programa corre conforme a lo esperado.
+ Gracias, me has estado ayudando mucho. :3
  
  Si acaso sería cambiar el nombre del archivo y ponerle un identificador con base al pdf, p.e:
     ParteII_Seleccion_Compara_Numeros.java
@@ -9,16 +10,7 @@
 
 
 /*
-    ALGORITMO:
-    1. El programa declara leerInt como Scanner.
-    2. El programa muestra la carátula.
-    3. El usuario ingresa 2 datos de tipo int.
-    4. El programa compara 2 datos int ingresados por el usuario.
-    5. El programa muestra Fin del programa.
-    6. Fin del programa. 
-
-    [Tienes la idea, solo falta desglosar paso por paso y no usar palabras que se
-    utilizan en la escritura del código como Int o Scanner. ¡RODRIGO!]
+    ALGORITMO: [Thanks...]
     1. El programa muestra la carátula.
     2. El programa solicita al usuario escribir un número entero.
     3. El usuario ingresa un número entero.
@@ -35,12 +27,12 @@
  * 2203007463
  * bicinrubenbr@gmail.com
  *
- * Compilar: javac compararNumeros.java
- * Ejecutar: java compararNumeros [OK]
+ * Compilar: javac ParteII_Seleccion_Compara_Numeros.java
+ * Ejecutar: java ParteII_Seleccion_Compara_Numeros [OK]
  */
 
-//Clase compararNumeros
-public class compararNumeros{
+//Clase ParteII_Seleccion_Compara_Numeros
+public class ParteII_Seleccion_Compara_Numeros{
 
     //Función main()
 	public static void main(String args[]){
@@ -92,4 +84,4 @@ public class compararNumeros{
     public static void finPrograma(){
         System.out.println("\n\n*** Fin del programa. ***\n");
     }//Fin método finPrograma()
-}//Fin Clase compararNumeros{}
+}//Fin Clase ParteII_Seleccion_Compara_Numeros{}

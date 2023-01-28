@@ -1,4 +1,4 @@
-/* [No compila.
+/* [Yap.
 
  Si acaso sería cambiar el nombre del archivo y ponerle un identificador con base al pdf, p.e:
  ParteIV_Diagramas_De_Flujo_Operaciones_Generales.java
@@ -26,20 +26,24 @@
  * 2203007463
  * bicinrubenbr@gmail.com
  *
- * Compilar: javac operacionesGenerales.java
- * Ejecutar: java operacionesGenerales
+ * Compilar: javac ParteIV_Diagramas_De_Flujo_Operaciones_Generales.java
+ * Ejecutar: java ParteIV_Diagramas_De_Flujo_Operaciones_Generales
  */
 
-//Clase operacionesGenerales
-public class operacionesGenerales{
+//Clase ParteIV_Diagramas_De_Flujo_Operaciones_Generales
+public class ParteIV_Diagramas_De_Flujo_Operaciones_Generales{
 	public static void main(String args[]){
 		//Declaración e importación.
         java.util.Scanner leerFloat = new java.util.Scanner(System.in);
-        float gradosFahrenheit = 0, distancia = 0, tiempo = 0, numeros = 0; 
+        float gradosFahrenheit = 0, distancia = 0, tiempo = 0, numeroIngresado = 0;
         double radio = 0;
+        int numeroEntero = 0, contadorPar = 0, contadorImpar = 0;
 
         //Se muestra Carátula.
         muestraCaratula();
+
+        //Mostrar el valor mínimo y máximo de Entero
+        //System.out.println("int\t" + Integer.MIN_VALUE + "\t" + Integer.MAX_VALUE);
 
         //Se lee y se calcula Fahrenheit a grados Celsius
         System.out.println("Ingresa tus Fahrenheit, para convertirlos a grados Celsius:");
@@ -62,31 +66,31 @@ public class operacionesGenerales{
         radio = Math.pow(radio, 2);
 
         System.out.println("\nEl área de tu círculo es de: " + (3.14159265359 * radio) + "m\n");
-
-        //Se lee y se 
-        System.out.println("Si deseas finalizar escribe 0\n");
+        
 
         //Se ingresa el número por el usuario y se compara si el número es par o impar
+        System.out.println("Si deseas finalizar escribe 0\n");
+
         do{
-        	//
+        	//Se lee el número
         	System.out.print("Dime un número: ");
-        	numero = leerFloat.nextInt();
+        	numeroIngresado = leerFloat.nextInt();
 
-        	//Contador para la suma de los números ingresados
-        	contadorSuma = contadorSuma + numeroIngresado;
+            if (numeroIngresado % 2 == 0 && numeroIngresado !=0) {
+                //Contador para saber el número total de números par.
+                contadorPar ++;
+            }
 
-        	//Contador para saber el número total de números ingresados
-        	contadorPromedio = contadorPromedio + 1;
+            else if (numeroIngresado % 2 != 0 && numeroIngresado != 0){
+                //Contador para saber el número total de números impar.
+                contadorImpar ++;
+            }
+
+        	
         }while (numeroIngresado != 0);
 
-        //Sustractor para quitar el último número 0 ingresado
-		contadorPromedio = contadorPromedio - 1;
-
-		//Se convierte el número de datos ingresados a entero para mostrarlo sin decimal
-		numeroNumeros = Math.round(contadorPromedio);
-
-		//Se calcula el promedio
-		System.out.println("\nEl promedio de tus " + numeroNumeros + " números ingresados es: " + (contadorSuma / contadorPromedio));
+		//Se muestran los números
+		System.out.println("\nDe tus " + (contadorPar + contadorImpar) + " números ingresados, " + contadorPar + " son pares, y " + contadorImpar +  " son impares.");
 
 
         //Se muestra Fin del programa.
@@ -99,7 +103,10 @@ public class operacionesGenerales{
         System.out.println("\t*   FUNDAMENTOS DE LA PROGRAMACION   *");
         System.out.println("\t*   ALUMNO: Rubén Ramírez Cervantes  *");
         System.out.println("\t*        MATRICULA: 2203007463       *");
-        System.out.println("\t*          OPERACIONES GENE          *");
+        System.out.println("\t*        PROGRAMA °FAHRENHEIT        *");
+        System.out.println("\t*             PROGRAMA 2             *");
+        System.out.println("\t*             PROGRAMA 3             *");
+        System.out.println("\t*             PROGRAMA 4             *");
         System.out.println("\t**************************************\n");
     }//Fin método muestraCaratula()
 
@@ -107,4 +114,4 @@ public class operacionesGenerales{
     public static void finPrograma(){
         System.out.println("\n\n*** Fin del programa. ***\n");
     }//Fin método finPrograma()
-}//Fin Clase operacionesGenerales{}
+}//Fin Clase ParteIV_Diagramas_De_Flujo_Operaciones_Generales{}

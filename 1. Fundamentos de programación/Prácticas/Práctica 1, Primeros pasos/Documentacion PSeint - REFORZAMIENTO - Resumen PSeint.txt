@@ -5,7 +5,7 @@ power point, en este mismo directorio.
 [Si me permites hacerte notar tus errores de ortógrafía, también podrías mejorar tu redacción]
 
 ¿Qué es un algoritmo?
-	It is a program that helps solving a problem. [Incorrecto, volver a investigar. (conjunto de...)]
+	An algorithm is a list of instructions used for solving a problem or for performing a computation. [Alraedy :3]
 
 Qué es un pseudcódigo?
 	Pseudocode is an artificial and informal language that helps programmers develop algorithms. [Ok]
@@ -56,16 +56,28 @@ Explica los tipos de datos que se pueden utilizar en PSeint
 
 ¿Qué es un Array/Arreglo y cuáles son sus características?
 	Arrays are *static* homogeneous data structures (all their data are of the same type) that allow to store a the same type) that allow to store a certain number of data under the same identifier, and then refer to it using one or more subscripts.
-	subscripts. Arrays can be thought of as vectors, arrays, etc. [Ok, very well]
+	subscripts. Arrays can be thought of as vectors, arrays, etc. [Ok, very well] Thanks :3
 
 
 ¿Cuál es la estructura que hay que escribir para definir un arreglo *en PSeint*?
-	La instrucción Dimensión permite definir un arreglo, indicando sus dimensiones.
-	Dimension <identificador> (<maxl>,...,<maxN>); [Incorrecto, revisar diapositiva 14]
-
-	Se pueden definir más de un arreglo en una misma instrucción, separándolos con una coma (,).
-	Dimension <ident1> (<max11>,...,<max1N>),..., <identM>
-	(<maxM1>,...,<maxMN>); [Incorrecto, revisar diapositiva 14 ¡RODRIGO!]
+	La instrucción Tamanio permite definir un arreglo, indicando sus dimensiones.
+	Proceso Prueba
+      Definir num como entero;
+      TAMANIO=5;
+      Dimension num[TAMANIO];
+      num[1]=5;
+      num[2]=10;
+      num[3]=15;
+      num[4]=20;
+      num[5]=25;
+      Para i<-1 Hasta TAMANIO Con Paso 1 Hacer
+          Escribir "Escribe un valor para el indice ",i;
+          leer num[i];
+      Fin Para
+      Para i<-1 Hasta TAMANIO Con Paso 1 Hacer
+          escribir num[i];
+      Fin Para
+	FinProceso [Already :3]
 
 
 ¿Cómo se accede a un elemento del arreglo?

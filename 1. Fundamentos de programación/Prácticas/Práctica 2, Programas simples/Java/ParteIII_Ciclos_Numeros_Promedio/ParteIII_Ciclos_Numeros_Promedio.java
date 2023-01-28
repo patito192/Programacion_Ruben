@@ -2,6 +2,7 @@
  los nombres de las variables son explicativas y se inicializan al principio del programa
  y el programa tiene la función de terminar hasta que el usuario escribe un cero,
  me parece un excelente criterio de paro.
+ Gracias, me has estado ayudando mucho. :3
 
  Si acaso sería cambiar el nombre del archivo y ponerle un identificador con base al pdf, p.e:
  ParteIII_Ciclos_Numeros_Promedio.java
@@ -10,25 +11,11 @@
 */
 
 /*
-    ALGORITMO:
-    1. El programa declara variables.
-    2. El programa muestra la carátula.
-    3. El programa lee datos de tipo flotante
-    4. El usuario ingresa los datos deseados de tipo float.
-    5. El programa calcula la suma de los números ingresados.
-    6. El programa guarda los datos ingresados en Contador para saber el número total de números ingresados.
-    7. El programa le substrae 1 a contadorPromedio para quitar el último 0 ingresado.
-    8. El programa convierte el número de datos ingresados a entero para mostrarlo sin decimal.
-    9. El programa calcula el promedio de los datos ingresados por el usuario.
-    10. El programa muestra Fin del programa.
-    11. Fin del programa.
-
-    [Tienes la idea, solo falta desglosar paso por paso y no usar palabras que se
-    utilizan en la escritura del código como Int o Scanner. ¡RODRIGO!]
+    ALGORITMO: [Already]
     1. El programa muestra la carátula.
     2. El programa muestra un mensaje al usuario que explica como finalizar el programa.
-    3. El programa solicita un número ¿entero, float, double? al usuario.
-    4. El programa lee un número ¿entero, float, double?.
+    3. El programa solicita un número flotante al usuario.
+    4. El programa lee un número flotante.
     5. El programa verifica si el número ingresado es el criterio de paro:
         5.1 En caso de que NO sea cero, acumula la suma del número ingresado e incrementa la cantidad
         de números que han sido ingresados, después se regresa al paso 3.
@@ -46,17 +33,18 @@
  * 2203007463
  * bicinrubenbr@gmail.com
  *
- * Compilar: javac numerosPromedio.java
- * Ejecutar: java numerosPromedio
+ * Compilar: javac ParteIII_Ciclos_Numeros_Promedio.java
+ * Ejecutar: java ParteIII_Ciclos_Numeros_Promedio
  */
 
-//Clase numerosPromedio
-public class numerosPromedio{
+//Clase ParteIII_Ciclos_Numeros_Promedio
+public class ParteIII_Ciclos_Numeros_Promedio{
 	public static void main(String args[]){
 		//Declaración e importación.
         java.util.Scanner leerFloat = new java.util.Scanner(System.in);
         // [Esta es una forma de llamar al objeto Scanner y es válida ¡RODRIGO!]
         // La otra es utilizar: import java.util.Scanner;
+        //Va, muchas gracias... :)
 
         float numeroIngresado = 0, contadorSuma = 0, contadorPromedio = 0;
         int numeroNumeros;
@@ -75,11 +63,11 @@ public class numerosPromedio{
         	contadorSuma = contadorSuma + numeroIngresado;
 
         	//Contador para saber el número total de números ingresados
-        	contadorPromedio = contadorPromedio + 1;
+        	contadorPromedio ++;
         }while (numeroIngresado != 0);
 
         //Sustractor para quitar el último número 0 ingresado
-		contadorPromedio = contadorPromedio - 1;
+		contadorPromedio --;
 
 		//Se convierte el número de datos ingresados a entero para mostrarlo sin decimal
 		numeroNumeros = Math.round(contadorPromedio);
@@ -105,4 +93,4 @@ public class numerosPromedio{
     public static void finPrograma(){
         System.out.println("\n\n*** Fin del programa. ***\n");
     }//Fin método finPrograma()
-}//Fin Clase numerosPromedio{}
+}//Fin Clase ParteIII_Ciclos_Numeros_Promedio{}
