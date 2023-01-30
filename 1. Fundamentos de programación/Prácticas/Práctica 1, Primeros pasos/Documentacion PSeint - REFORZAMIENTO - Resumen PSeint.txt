@@ -5,7 +5,7 @@ power point, en este mismo directorio.
 [Si me permites hacerte notar tus errores de ortógrafía, también podrías mejorar tu redacción]
 
 ¿Qué es un algoritmo?
-	An algorithm is a list of instructions used for solving a problem or for performing a computation. [Alraedy :3]
+	An algorithm is a list of instructions used for solving a problem or for performing a computation. [Alraedy :3] [Ok]
 
 Qué es un pseudcódigo?
 	Pseudocode is an artificial and informal language that helps programmers develop algorithms. [Ok]
@@ -77,7 +77,7 @@ Explica los tipos de datos que se pueden utilizar en PSeint
       Para i<-1 Hasta TAMANIO Con Paso 1 Hacer
           escribir num[i];
       Fin Para
-	FinProceso [Already :3]
+	FinProceso [Already :3] [Ok]
 
 
 ¿Cómo se accede a un elemento del arreglo?

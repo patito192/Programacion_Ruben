@@ -11,7 +11,7 @@
 */
 
 /*
-    ALGORITMO: [Already]
+    ALGORITMO: [Already] [Ok]
     1. El programa muestra la carátula.
     2. El programa muestra un mensaje al usuario que explica como finalizar el programa.
     3. El programa solicita un número flotante al usuario.
