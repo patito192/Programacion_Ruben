@@ -36,6 +36,8 @@ void muestraCaratula(){
 int main(){
 	muestraCaratula();
 
+    printf("");
+
 	printf("Hi :)\n");
 	return 0;
 }
