@@ -23,15 +23,15 @@
 /*
 	(Corregir la indentación. ¡RODRIGO!)
 */
-	//Caratula
-    void muestraCaratula(){
-        printf("\t**************************************\n");
-        printf("\t*   FUNDAMENTOS DE LA PROGRAMACION   *\n");
-        printf("\t*   ALUMNO: Rubén Ramírez Cervantes  *\n");
-        printf("\t*        MATRICULA: 2203007463       *\n");
-        printf("\t*             PRINT HOLA             *\n");
-        printf("\t**************************************\n");
-    }
+//Caratula
+void muestraCaratula(){
+    printf("\t**************************************\n");
+    printf("\t*   FUNDAMENTOS DE LA PROGRAMACION   *\n");
+    printf("\t*   ALUMNO: Rubén Ramírez Cervantes  *\n");
+    printf("\t*        MATRICULA: 2203007463       *\n");
+    printf("\t*             PRINT HOLA             *\n");
+    printf("\t**************************************\n");
+}
 //************************************************************
 int main(){
 	muestraCaratula();

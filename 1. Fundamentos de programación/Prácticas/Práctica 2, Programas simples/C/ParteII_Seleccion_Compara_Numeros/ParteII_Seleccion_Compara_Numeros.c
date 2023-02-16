@@ -22,8 +22,58 @@
 
 //Importaciones
 #include <stdio.h>
+//#include <iostream>
+#include <stdlib.h>
 
 //Método ParteII_Seleccion_Compara_Numeros
 int main(){
-	
+	int numeroAIn, int numeroBIn;
+
+	muestraCaratula();
+
+	//Lectura de datos int
+    printf("Ingresa tu primer número: ");
+    scanf("%i", & numeroAIn);
+
+    printf("\ntus numero son: %i", numeroAIn);
+
+    //printf("Ingresa tu segundo número: ");
+    //scanf("%i", & numeroBIn);
+
+    /*/Comparaciones de los datos ingresados
+    if (numeroAIn == numeroBIn) {
+        printf("El primer número y el segundo número son iguales: " + numeroAIn + " = " + numeroBIn);
+    }
+
+    else if(numeroAIn > numeroBIn){
+        printf("El número " + numeroAIn + " es mayor que " + numeroBIn);
+    }
+
+    else{
+        printf("El número " + numeroBIn + " es mayor que " + numeroAIn);
+    }*/
+
+    //Se muestra Fin del programa.
+    finPrograma();
+
+	return 0;
 }//Fin Método ParteII_Seleccion_Compara_Numeros{}
+
+//Método Carátula.
+static void muestraCaratula(){
+    printf("\t**************************************\n");
+    printf("\t*   FUNDAMENTOS DE LA PROGRAMACION   *\n");
+    printf("\t*   ALUMNO: Rubén Ramírez Cervantes  *\n");
+    printf("\t*        MATRICULA: 2203007463       *\n");
+    printf("\t*          COMPARAR NUMEROS          *\n");
+    printf("\t**************************************\n");
+}//Fin método muestraCaratula()
+
+//Método Fin del programa.
+static void finPrograma(){
+    printf("\n\n*** Fin del programa. ***\n");
+}//Fin método finPrograma()
+
+//INVESTIGAR POR QUÉ NO FUNCIONA
+    //scanf("%d", numeroAIn);
+    //printf("%d", numeroAIn);
