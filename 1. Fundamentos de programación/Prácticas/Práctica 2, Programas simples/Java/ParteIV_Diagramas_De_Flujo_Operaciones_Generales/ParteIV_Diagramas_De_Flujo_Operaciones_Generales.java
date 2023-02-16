@@ -1,9 +1,14 @@
-/* [Yap.
+/* [
+ Todos los programas funcionan muy bien. Aquí la parte de experiencia de usuario se puede mejorar
+  con un menú tipo:
+    selecciona una opción:
+    1.- Conversión de grados...
+    2.- Cálculo del área de círculo...
+    3...
+    5.- Salir
 
- Si acaso sería cambiar el nombre del archivo y ponerle un identificador con base al pdf, p.e:
- ParteIV_Diagramas_De_Flujo_Operaciones_Generales.java
-
- ¡RODRIGO!]
+    y así puedes modularizar el código para tener métodos que resuelvan un problema en partícular.
+  ¡RODRIGO!]
 */
 
 /*

@@ -50,4 +50,4 @@ For sure :3 XD
 	more command is used to diaplay a complete file while pausing piecemeal. [Ok]
 
 ¿En una terminal para que sirve el comando cat <archivo>(linux)?
-	cat command is used to display the first n lines of a file, the user can set how many lines to display. [Already :3]
+	cat command is used to display the first n lines of a file, the user can set how many lines to display. [Already :3] [Ok]
