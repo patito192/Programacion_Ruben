@@ -1,17 +1,13 @@
+// Estatus [TERMINADO]
+
 /* [Felicidades, está muy bien comentado el código, muy bien estructurado,
  los nombres de las variables son explicativas y se inicializan al principio del programa
  y el programa tiene la función de terminar hasta que el usuario escribe un cero,
- me parece un excelente criterio de paro.
- Gracias, me has estado ayudando mucho. :3
-
- Si acaso sería cambiar el nombre del archivo y ponerle un identificador con base al pdf, p.e:
- ParteIII_Ciclos_Numeros_Promedio.java
-
- ¡RODRIGO!]
+ me parece un excelente criterio de paro.]
 */
 
 /*
-    ALGORITMO: [Already] [Ok]
+    ALGORITMO: 
     1. El programa muestra la carátula.
     2. El programa muestra un mensaje al usuario que explica como finalizar el programa.
     3. El programa solicita un número flotante al usuario.
@@ -25,7 +21,7 @@
     8. El programa convierte el número de datos ingresados a entero para mostrarlo sin decimal.
     9. El programa calcula el promedio de los datos ingresados por el usuario y muestra el resultado.
     10. El programa muestra Fin del programa.
-    11. Fin del programa.
+    11. Fin del programa. [Ok]
 */
 
 /*
@@ -44,7 +40,6 @@ public class ParteIII_Ciclos_Numeros_Promedio{
         java.util.Scanner leerFloat = new java.util.Scanner(System.in);
         // [Esta es una forma de llamar al objeto Scanner y es válida ¡RODRIGO!]
         // La otra es utilizar: import java.util.Scanner;
-        //Va, muchas gracias... :)
 
         float numeroIngresado = 0, contadorSuma = 0, contadorPromedio = 0;
         int numeroNumeros;
@@ -93,4 +88,5 @@ public class ParteIII_Ciclos_Numeros_Promedio{
     public static void finPrograma(){
         System.out.println("\n\n*** Fin del programa. ***\n");
     }//Fin método finPrograma()
+
 }//Fin Clase ParteIII_Ciclos_Numeros_Promedio{}

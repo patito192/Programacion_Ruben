@@ -10,19 +10,10 @@
  * Rubén Ramírez Cervantes
  * 2203007463
  * bicinrubenbr@gmail.com
- *
- * Compilar: gcc ‐o hola hola.c (Escribir el orden correcto de la compilación. ¡RODRIGO!)
- * Ejecutar: ./hola
-
  * Compilar: gcc hola.c -o hola.out
  * Ejecutar: ./hola.out
  */
 
-
-
-/*
-	(Corregir la indentación. ¡RODRIGO!)
-*/
 //Caratula
 void muestraCaratula(){
     printf("\t**************************************\n");
@@ -32,7 +23,9 @@ void muestraCaratula(){
     printf("\t*             PRINT HOLA             *\n");
     printf("\t**************************************\n");
 }
+
 //************************************************************
+
 int main(){
 	muestraCaratula();
 

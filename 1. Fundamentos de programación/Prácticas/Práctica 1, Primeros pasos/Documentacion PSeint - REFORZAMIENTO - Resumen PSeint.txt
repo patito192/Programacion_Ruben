@@ -1,11 +1,11 @@
-Constestar las preguntas de forma que tu abosorbas más conocimiento,
+Estatus [Casi terminado]
+
+Contestar las preguntas de forma que tu abosorbas más conocimiento,
 ya sea así directamente en este txt, o pasarlas a resumen en un word, o hacer tu propia presentación en
 power point, en este mismo directorio.
 
-[Si me permites hacerte notar tus errores de ortógrafía, también podrías mejorar tu redacción]
-
 ¿Qué es un algoritmo?
-	An algorithm is a list of instructions used for solving a problem or for performing a computation. [Alraedy :3] [Ok]
+	An algorithm is a list of instructions used for solving a problem or for performing a computation. [Ok]
 
 Qué es un pseudcódigo?
 	Pseudocode is an artificial and informal language that helps programmers develop algorithms. [Ok]
@@ -98,9 +98,19 @@ algorimo sería el siguiente:
 
 	//CompararNumeros
 	1. El programa muestra la carátula.
-    2. El usuario ingresa 2 datos de tipo int.
-    3. El programa compara 2 datos int ingresados por el usuario.
-    4. El programa muestra Fin del programa.
-    5. Fin del programa.
+	2. El usuario ingresa 2 datos de tipo int.
+	3. El programa compara 2 datos int ingresados por el usuario.
+	4. El programa muestra Fin del programa.
+	5. Fin del programa.
 
-    [Revisar la diapositiva 16, los ejercicios son de un formulario y de números pares.¡RODRIGO!]
+    [Casi... escribir paso a paso
+    	1. El programa muestra la carátula.
+    	2. El programa solicita un numero
+			3. El usuario ingresa un numero entero.
+			4. El programa pide otro numero.
+			5. El usuario ingresa otro numero
+			4. El programa compara los 2 numero ingresados por el usuario.
+			5. El programa muestra cual de los 2 numero es mayor/menor/igual.
+			5. El programa muestra Fin del programa.
+			6. Fin del programa.
+    ]
