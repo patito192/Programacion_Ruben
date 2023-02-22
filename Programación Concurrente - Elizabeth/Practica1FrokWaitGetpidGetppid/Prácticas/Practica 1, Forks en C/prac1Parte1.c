@@ -29,14 +29,15 @@ Algoritmo:
 int main(int argc, char const *argv[]){
 	//Declaraciones
 	int coeficienteC=2, baseX=4, exponenteN=2, contador=0, resultado; //R 32
-	pid_t pidHijo;
+	pid_t pidHijo, pidWait;
+	//pid_t wait(int *stat_loc);
 
 	resultado = baseX;
 
 	pidHijo = fork();
 
 	if (pidHijo != 0){
-		wait();
+		wait(NULL);
 	}
 	else{
 		resultado = pow(baseX, exponenteN);
