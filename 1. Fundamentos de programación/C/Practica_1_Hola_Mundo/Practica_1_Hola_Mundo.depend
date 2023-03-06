@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1677789160 source:e:\rodrigo\documentos\github\plantillas-de-practicas\1 fundamentos de programacion\c\practica_1_hola_mundo\main.c
+	<stdio.h>
+	<stdlib.h>
+
