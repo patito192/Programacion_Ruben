@@ -1,0 +1,58 @@
+//************************************
+// Rubén Ramírez Cervantes
+// 2203007463
+// bicinrubenbr@gmail.com
+//
+// Compilar y Ejecutar: Botón Play
+//************************************
+
+Algoritmo numerosPromedio
+	//Declaraciones
+	Definir numeroIngresado, contadorPromedio, contadorSuma, i Como Entero;
+	
+	//Contadores inizializados
+	contadorPromedio = 0;
+	contadorSuma = 0;
+	//i inizializado
+	i = 0;
+	
+	muestraCaratula();
+	
+	Imprimir "Si deseas finalizar escribe 0";
+	Escribir "";
+	
+	Hacer
+		//Se ingresa el número
+		Escribir Sin Saltar "Dime un número:";
+		Leer numeroIngresado;
+		
+		//Contador para la suma de los números ingresados
+		contadorSuma = contadorSuma + numeroIngresado;
+		
+		//Contador para saber el número total de números ingresados
+		contadorPromedio = contadorPromedio + 1;
+	Hasta Que numeroIngresado == 0
+	
+	//Sustractor para quitar el último número 0 ingresado
+	contadorPromedio = contadorPromedio - 1;
+	
+	//Se calcula el promedio
+	Escribir "";
+	Escribir "El promedio de tus números ingresados es: " contadorSuma / contadorPromedio;
+	
+	//Fin del programa.
+	Escribir "";
+	Escribir "*** Fin del programa. ***";
+	Escribir "";
+FinAlgoritmo
+
+//Caratula
+Funcion muestraCaratula()
+	Imprimir("**************************************");
+	Imprimir("*   FUNDAMENTOS DE LA PROGRAMACION   *");
+	Imprimir("*   ALUMNO: Rubén Ramírez Cervantes  *");
+	Imprimir("*        MATRICULA: 2203007463       *");
+	Imprimir("*         PROMEDIO DE NUMEROS        *");
+	Imprimir("**************************************");
+	Escribir "";
+FinFuncion
